@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registro de la persona Usuaria</title>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class="background-overlay"></div>
+
+        <div class="container">
+            <div class="form-image"></div>
+
+            <form class="registro-form" action="#" method="post">
+                <h1>Registro de la persona Usuaria</h1>
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="descripcion">Cuéntame algo sobre ti:</label>
+                <textarea id="descripcion" name="descripcion" rows="4" placeholder="Escribe una breve descripción sobre ti..."></textarea>
+
+                <label>Selecciona 1 o más temas de interés que tengas:</label>
+                <div class="intereses">
+                    <label><input type="checkbox" name="intereses" value="tecnologia"> Tecnología</label>
+                    <label><input type="checkbox" name="intereses" value="arte"> Arte</label>
+                    <label><input type="checkbox" name="intereses" value="deportes"> Deportes</label>
+                    <label><input type="checkbox" name="intereses" value="viajes"> Viajes</label>
+                    <label><input type="checkbox" name="intereses" value="musica"> Música</label>
+                    <label><input type="checkbox" name="intereses" value="lectura"> Lectura</label>
+                </div>
+
+                <button type="submit">Registrarse</button>
+            </form>
+        </div>
+            
+    </body>
+</html>
